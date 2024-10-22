@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Anúncios</title>
+    <link rel="stylesheet" type="text/css" href="visualizar_anuncios.css"> <!--CSS-->
+</head>
+
+<body>
+    <h1>Visualização de Anúncios</h1>
+    <div id="anuncios-list"></div>
+    <script>
+        const anuncios = [
+            {
+                titulo: "Anúncio 1",
+                descricao: "Descrição",
+                data: "2024-10-21 10:00",
+                tipo: "Evento"
+            },
+
+        ];
+        const anunciosList = document.getElementById('anuncios-list');
+
+        anuncios.forEach(anuncio => {
+            const anuncioDiv = document.createElement('div');
+            anuncioDiv.classList.add('anuncio-item');
+
+            anuncioDiv.innerHTML = `
+                <h2>${anuncio.titulo}</h2>
+                <p>${anuncio.descricao}</p>
+                <p><strong>Data:</strong> ${anuncio.data}</p>
+                <p><strong>Tipo:</strong> ${anuncio.tipo}</p>
+            `;
+            anunciosList.appendChild(anuncioDiv);
+        });
+    </script>
+</body>
+
+</html>
