@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Painel de Anúncios</title>
+        <link rel="stylesheet" type="text/css" href="criar_anuncio.css">
+    </head>
+
+    <body>
+
+        <h1>Painel de Anúncios</h1>
+
+        <div id="anuncios"></div>
+
+        <h2>Adicionar Anúncio</h2>
+            <form id="form-anuncio">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <textarea id="descricao" placeholder="Descrição" required></textarea>
+                <input type="datetime-local" id="data" required>
+                <select id="tipo">
+                    <option value="evento">Evento</option>
+                    <option value="lembrete">Lembrete</option>
+                    <option value="anuncio">Anúncio</option>
+                </select>
+                <input type="number" id="usuario_id" placeholder="ID do Usuário" required>
+                <input type="file" id="imagem" accept="image/*"> <!-- Campo para adicionar imagem -->
+                <button type="submit">Adicionar</button>
+            </form>
+
+    </body>
+</html>
