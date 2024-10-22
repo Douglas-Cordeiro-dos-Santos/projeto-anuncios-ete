@@ -12,6 +12,12 @@ h1 {
 #anuncios {
     margin: 20px 0;
 }
+
+#Salvar {
+    float: right;
+    background-color: green;
+}
+
 .anuncio {
     background: #fff;
     border: 1px solid #ccc;
