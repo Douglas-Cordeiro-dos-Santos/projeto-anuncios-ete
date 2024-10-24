@@ -8,12 +8,19 @@
     </head>
 
     <body>
-        <form id="register-form" action="teste.php" method="post">
+        <script>
+            function cadastro_ok(){
+                alert("Usuário cadastrado, aperte ok para voltar à tela inicial.");
+            }
+        </script>
+
+        <form id="register-form" action="teste.php" method="post" onsubmit="cadastro_ok()">
             <h2 style="text-align: center;">Criar novo usuário</h2>
             <input type="text" name="nome" placeholder="Usuário">
             <input type="password" name="senha" placeholder="Senha">
             <button type="submit">Registrar</button>
             <p id="message"></p>
         </form>
+
     </body>
 </html>
