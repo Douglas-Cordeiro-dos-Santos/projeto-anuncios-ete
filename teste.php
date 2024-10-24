@@ -9,7 +9,7 @@
 
     <body>
         <header>
-            <h2 style="text-align: center;">Usuário cadastrado</h2>
+            <h2 style="text-align: center;">TESTE REALIZADO COM SUCESSO</h2>
         </header>
 
         <main>

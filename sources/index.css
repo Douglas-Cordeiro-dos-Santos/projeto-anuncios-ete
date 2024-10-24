@@ -8,6 +8,7 @@ body {
     background-size: cover; 
     background-position: center; 
     position: relative; 
+    margin: 0;
 }
 form {
     border: 1px solid #ccc; 
@@ -15,6 +16,9 @@ form {
     border-radius: 10px; 
     background-color: rgba(255, 255, 255, 0.8); 
     z-index: 1; 
+    width: 500;
+    flex-direction: column;
+    gap: 10px;
 }
 input {
     margin-bottom: 10px; 
@@ -23,6 +27,7 @@ input {
     border: 1px solid #ccc; 
     border-radius: 10px; 
     box-shadow: 0 2px 5px rgba(18, 16, 16, 0.993);
+    box-sizing: border-box;
 }
 button {
     padding: 10px; 
@@ -33,10 +38,12 @@ button {
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s;
+    box-sizing: border-box;
 }
 button:hover {
     background-color: #0056b3; 
 }
+
 #message {
     margin-top: 10px; 
     color: red; 
