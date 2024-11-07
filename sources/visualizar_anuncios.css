@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2f119b75;
+    background-color: #1942d6;
     height: 100vh;
     padding: 20px;
     overflow-y: auto;
@@ -42,7 +42,7 @@ body {
 
 h1 {
     font-size: 2em;
-    color: #333;
+    color: #fcfbfb; 
     text-shadow: none;
     margin-bottom: 20px;
 }
