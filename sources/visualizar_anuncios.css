@@ -1,4 +1,22 @@
-/* estilo para a lista de anúncios */
+#logout-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* o botão fica acima de outros elementos */
+    transition: background-color 0.3s ease;
+}
+
+#logout-button:hover {
+    background-color: #c82333;
+}
+
 #anuncios-list {
     width: 60%;
     margin: 20px auto;
