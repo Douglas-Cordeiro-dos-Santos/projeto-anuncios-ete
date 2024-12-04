@@ -1,8 +1,5 @@
 
-div{
-    overflow-x: hidden;
-    padding-left: 75rem;
-}
+
 #back-button {
     padding: 10px 20px;
     background-color: #dc3545;
@@ -23,26 +20,7 @@ div{
     color: #000000;
 }
 
-#logout-button {
-    flex-direction: row;
-    padding: 10px 20px;
-    background-color: #dc3545;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    bottom: 20px;
-    z-index: 1000; /* o botão fica acima de outros elementos */
-    transition: background-color 0.3s ease;
-}
 
-#logout-button:hover {
-    background-color: #ff9129;
-    color: #000000;
-}
 
 
 #anuncios-list {

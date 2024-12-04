@@ -29,10 +29,17 @@
             //fechar conexão
             $conn->close();
         ?>
-
+         <button id="back-button">Voltar</button>
         <script>
-            window.location="tela_inicio.html";
+            document.getElementById('back-button').addEventListener('click', () => {
+        window.location.href = 'tela_inicio.html'; // redirecionamento para página de login
+    });
+            
         </script>
+        <!-- Botão de Voltar -->
+   
+
+
 
     </body>
 </html>

@@ -51,11 +51,11 @@
         $conn->close();
     ?>
 
-    <!-- Botão de Sair -->
-    <button id="logout-button">Sair</button>
+    <!-- Botão de Voltar -->
+    <button id="back-button">Voltar</button>
 
     <script>
-        document.getElementById('logout-button').addEventListener('click', () => {
+        document.getElementById('back-button').addEventListener('click', () => {
             window.location.href = 'tela_inicio.html'; // redirecionamento para página de login
         });
     </script>
