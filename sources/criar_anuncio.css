@@ -6,6 +6,26 @@ body {
     color: #fffcfc;
 }
 
+#back-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* o botão fica acima de outros elementos */
+    transition: background-color 0.3s ease;
+}
+
+#back-button:hover {
+    background-color: #ff9129;
+    color: #000000;
+}
+
 h1 {
     text-align: center;
     color: #f1f2f3;

@@ -26,7 +26,7 @@
             $tipo = $_POST["tipo"];
             $usuario_id = $_POST["usuario_id"];
 
-            $sql = "INSERT INTO anuncios (titulo, descricao, data_pub, tipo, user_id) VALUES ('$titulo', '$descricao', '$data', '$tipo', '$usuario_id')";
+            $sql = "INSERT INTO anuncios (titulo, descricao, data_pub, tipo) VALUES ('$titulo', '$descricao', '$data', '$tipo')";
             mysqli_query($conn, $sql);
 
             //fechar conexão

@@ -8,46 +8,19 @@
     <link rel="stylesheet" type="text/css" href="sources/visualizar_anuncios.css"> <!--CSS-->
 </head>
 
-<body>
-    <h1>Visualização de Anúncios</h1>
-    
-    <!-- Lista de Anúncios -->
-    <div id="anuncios-list"></div>
-    
-    <!-- Botão de Sair -->
+<div>
     <button id="logout-button">Sair</button>
+</div>
+<body>
+    
+    <h1>Visualização de Anúncios</h1>
 
-    <script>
-        const anuncios = [
-            {
-                titulo: "Anúncio 1",
-                descricao: "Descrição",
-                data: "2024-10-21 10:00",
-                tipo: "Evento"
-            },
-        ];
-        
-        const anunciosList = document.getElementById('anuncios-list');
+    <form id="form-anuncio" action="visualizar_anuncio.php">
+        <button type="submit">ATUALIZAR ANÚNCIOS</button>
+    </form>
 
-        anuncios.forEach(anuncio => {
-            const anuncioDiv = document.createElement('div');
-            anuncioDiv.classList.add('anuncio-item');
+    <button id="back-button">Voltar</button>
 
-            anuncioDiv.innerHTML = `
-                <h2>${anuncio.titulo}</h2>
-                <p>${anuncio.descricao}</p>
-                <p><strong>Data:</strong> ${anuncio.data}</p>
-                <p><strong>Tipo:</strong> ${anuncio.tipo}</p>
-            `;
-            anunciosList.appendChild(anuncioDiv);
-        });
-
-
-        document.getElementById('logout-button').addEventListener('click', () => {
-            
-            window.location.href = 'tela_inicio.html'; // redirecionamento para página de login
-        });
-    </script>
 </body>
 
 </html>

@@ -9,10 +9,10 @@
 
     <body>
 
-        <form id="login-form">
+        <form id="login-form" action="login.php" method="post">
             <h2 style=text-align:center>BEM VINDO</h2>
-            <input type="text" id="username" placeholder="Usuário" required>
-            <input type="password" id="password" placeholder="Senha" required>
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
             <button type="submit">Entrar</button>
             <p id="message"></p>
             
