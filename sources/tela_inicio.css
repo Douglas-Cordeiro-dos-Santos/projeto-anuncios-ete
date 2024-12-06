@@ -12,23 +12,26 @@ body {
 }
 
 section{
+    margin-top: 1rem;
     overflow-x: hidden;
     padding-left: 75rem;
+    height: 20px;
 }
 
 #logout-button {
     padding-left: 75rem;
     flex-direction: row;
-    padding: 10px 20px;
+    padding: 3px 15px;
     background-color: #dc3545;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 1em;
+    border-radius: 4px;
+    font-size: 12px;
     cursor: pointer;
+    
     margin-right: 2rem;
     margin-left: 2rem;
-    bottom: 20px;
+    bottom: 13px;
     z-index: 1000; /* o botão fica acima de outros elementos */
     transition: background-color 0.3s ease;
 }

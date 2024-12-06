@@ -15,19 +15,19 @@ body {
 
 #back-button {
     padding: 10px 20px;
+    text-decoration: none;
     background-color: #dc3545;
     color: #fff;
-    border: none;
+    border: #fff;
+    border-color: floralwhite;
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
     margin-right: 50px;
     margin-left: 10px;
     margin-top: 35em;
-    zposition: fixed;
     bottom: 20px;
     right: 20px;
-    zz-index: 1000; /* o botão fica acima de outros elementos */
     transition: background-color 0.3s ease;
 }
 

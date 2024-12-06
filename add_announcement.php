@@ -37,14 +37,6 @@
             window.location="tela_inicio.html";
         </script>
 
-        <!-- Botão de Voltar -->
-    <button id="back-button">Voltar</button>
-
-<script>
-    document.getElementById('back-button').addEventListener('click', () => {
-        window.location.href = 'tela_inicio.html'; // redirecionamento para página de login
-    });
-</script>
 
     </body>
 </html>
